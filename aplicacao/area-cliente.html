@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Cliente - Doce Encanto Confeitaria</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Doce Encanto Confeitaria</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="depoimentos.html">Depoimentos</a>
+        <a href="contato.html">Contato</a>
+        <a href="login.html">Login</a>
+        <a href="area-cliente.html">Área do Cliente</a>
+    </nav>
+</header>
+
+<section class="container">
+
+    <h2>Área do Cliente</h2>
+
+    <div class="card">
+
+        <div class="dados-usuario">
+
+    <p>
+        <strong>Nome:</strong>
+        João da Silva
+    </p>
+
+    <p>
+        <strong>E-mail:</strong>
+        joao@email.com
+    </p>
+
+    <p>
+        <strong>Telefone:</strong>
+        (49) 99999-9999
+    </p>
+
+    <a href="cadastro.html" class="botao-galeria">
+        Editar Cadastro
+    </a>
+
+    </div>
+
+    </div>
+
+    <br><br>
+
+    <div class="card">
+
+        <h3>Nova Solicitação</h3>
+
+        <form>
+
+            <label>Tipo da Solicitação</label>
+
+            <select required>
+                <option value="">Selecione</option>
+                <option value="contato">Contato</option>
+                <option value="orcamento">Orçamento</option>
+            </select>
+
+        <input type="text" placeholder="Assunto">
+    
+        <textarea placeholder="Escreva sua mensagem"></textarea>
+
+        <a href="#solicitacao-sucesso" class="botao-galeria">
+            Enviar
+        </a>
+
+        </form>
+
+    </div>
+
+    <br><br>
+
+    <div class="card">
+
+        <h3>Histórico de Solicitações</h3>
+
+        <table>
+
+            <tr>
+                <th>Protocolo</th>
+                <th>Tipo</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>001</td>
+                <td>Contato</td>
+                <td>Respondido</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Orçamento</td>
+                <td>Em Análise</td>
+            </tr>
+
+            <tr>
+                <td>003</td>
+                <td>Orçamento</td>
+                <td>Aprovado</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div id="solicitacao-sucesso" class="popup">
+
+    <div class="popup-conteudo">
+
+        <h2>Solicitação Registrada!</h2>
+
+        <p>
+            Sua solicitação foi registrada com sucesso.
+        </p>
+
+        <a href="#" class="fechar-popup">
+            Fechar
+        </a>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Doce Encanto Confeitaria</p>
+</footer>
+
+</body>
+</html>
